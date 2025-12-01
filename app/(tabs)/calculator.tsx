@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, TextInput } from 'react-native';
+import { StyleSheet, TextInput } from 'react-native';
 
 
 const Calculator = () => {
@@ -7,28 +7,32 @@ const Calculator = () => {
         <div style={{ color: 'white', display: 'flex', flexDirection: 'column' }}>
             <span style={{ fontSize: 40, alignSelf: 'center' }}>калькулятор</span>
             <TextInput style={{ borderColor: 'yellow', borderWidth: 1, color: 'yellow', fontSize: 50 }}></TextInput>
-            <div style={styles.lowerpart}>
+            <div style={styles.Lowerpart}>
 
-                <div style={styles.lowerpart-numbers}>
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
-                    <div className='lowerpart-numbers-zero'>
-                        <button>0</button>
-                    </div>
+                <div style={styles.LowerpartNumbers}>
+                    <button style={styles.LowerpartNumbersBtn}>1</button>
+                    <button style={styles.LowerpartNumbersBtn}>2</button>
+                    <button style={styles.LowerpartNumbersBtn}>3</button>
+                    <button style={styles.LowerpartNumbersBtn}>4</button>
+                    <button style={styles.LowerpartNumbersBtn}>5</button>
+                    <button style={styles.LowerpartNumbersBtn}>6</button>
+                    <button style={styles.LowerpartNumbersBtn}>7</button>
+                    <button style={styles.LowerpartNumbersBtn}>8</button>
+                    <button style={styles.LowerpartNumbersBtn}>9</button>
+                                    <div>
+                    <button style={styles.LowerpartNumbersBtnZero}>0</button>
+                    <button style={styles.LowerpartNumbersBtnZero}>=</button>
+                </div>
+
                 </div>
 
 
 
-
-                <div className='lowerpart-actions'>
-
+                <div style={styles.LowerpartActions}>
+                    <button style={styles.LowerpartNumbersBtn}>+</button>
+                    <button style={styles.LowerpartNumbersBtn}>-</button>
+                    <button style={styles.LowerpartNumbersBtn}>*</button>
+                    <button style={styles.LowerpartNumbersBtn}>/</button>
                 </div>
 
             </div>
@@ -38,16 +42,35 @@ const Calculator = () => {
 }
 
 const styles = StyleSheet.create({
-    lowerpart: {
-        backgroundColor : 'white',
-        width: 1000,
-        height: 1000
+    Lowerpart: {
+        backgroundColor: 'white',
+        width: 933,
+        height: 580,
+        display: 'flex'
     },
-    
+    LowerpartNumbers: {
+        width: 700,
+
+        justifyContent: "space-around",
+        flexWrap: 'wrap',
+    },
+    LowerpartNumbersBtn: {
+        width: 230,
+        height: 145,
+        marginLeft: 3
+    },
+    LowerpartNumbersBtnZero: {
+        width: 348,
+        height: 145,
+        marginLeft: 1.5
+    },
+    LowerpartActions: {
+        width: 230,
+        height: 1000,
+
+    },
+
+
 
 })
 export default Calculator;
-
-/*
-
-*/
