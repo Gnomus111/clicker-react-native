@@ -1,0 +1,17 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>830</x><y>340</y><w>100</w><h>30</h></coordinates><panel_attributes>я дерево
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>680</x><y>330</y><w>60</w><h>110</h></coordinates><panel_attributes>user</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>40</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Package::Fatmom
+{Some Properties}
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>250</y><w>210</w><h>70</h></coordinates><panel_attributes>_object: Class_
+--
+id: Long="36548"
+[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element></diagram>

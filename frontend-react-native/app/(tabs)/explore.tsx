@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
@@ -60,3 +60,5 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
+
+*/

@@ -14,5 +14,5 @@
     "frontend-react-native/.expo/types/**/*.ts",
     "expo-env.d.ts",
     ".expo/types/**/*.ts"
-  ]
+, "app/(tabs)/types/weather.type.ts"  ]
 }

@@ -1,6 +1,7 @@
+/*
 import React, { useEffect, useState } from "react";
 import { View, Text, TouchableOpacity, ActivityIndicator, Button, Image } from "react-native";
-import { WeatherDto } from "./types/weather.type";
+import { WeatherDto } from "../(tabs)/types/weather.type"; 
 
 const WeatherApp = () => {
     const apiKey = 'VLPXDXGSELJA8XEY89AVRDMF5';
@@ -80,7 +81,6 @@ const WeatherApp = () => {
                                 borderColor: '#e9ecef',
                             }}>
                                 <View>
-                                    {/* Картинка погоды */}
                                     <Image
                                         source={getWeatherIcon(item.conditions)}
                                         style={{ width: 50, height: 50, marginRight: 15 }} />
@@ -119,3 +119,5 @@ const WeatherApp = () => {
 }
 
 export default WeatherApp;
+
+*/

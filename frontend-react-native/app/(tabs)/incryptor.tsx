@@ -11,7 +11,8 @@ const Incryptor = () => {
 
     // Функция для шифрования
     const handleEncrypt = () => {
-        let encryptResult = '';
+        let encryptRes
+        ult = '';
         for(let i = 0; i < encryptText.length; i++){
             const char = encryptText[i].toLowerCase();
             const index = letters.indexOf(char);

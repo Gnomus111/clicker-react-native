@@ -34,3 +34,5 @@ app.put("/api/data/:id", (req, res) => {
 
     res.json(data); // возврат данных на ответ
 });
+
+app.get("/api/tupilka")
